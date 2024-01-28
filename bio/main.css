@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  color: #981919;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+body {
+  background: linear-gradient(black, rgb(91, 19, 34));
+  min-height: 100vh;
+}
+.bio1 {
+  width: 100%;
+}
+.bio1 img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+.biobutton {
+  width: 20%;
+  height: 9vh;
+  background: rgb(12, 10, 26);
+  border-radius: 10px;
+  border: 3px solid rgb(84, 25, 25);
+  margin-top: 150px;
+  display: flex;
+  padding-bottom: 20px;
+}
+.biobutton img {
+  height: 40px;
+  margin-top: 10px;
+  width: 15%;
+  margin-left: 20px;
+}
+.biobutton h1 {
+  font-family: sans-serif;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.biobutton:hover {
+  box-shadow: 0 0 50px white;
+  border: 5px solid white;
+  transition: 0.7s;
+  padding-bottom: 15px;
+  width: 21%;
+  height: 10vh;
+}
+.biobutton:active {
+  box-shadow: 0 0 80px white;
+  transition: 0s;
+  text-shadow: 0 0 10px rgb(152, 25, 25);
+}
+marquee {
+  margin-top: 200px;
+}
+.container {
+  display: flex;
+  margin-left: 150px;
+  gap: 190px;
+}
+button {
+  background: transparent;
+  border: 0;
+}
